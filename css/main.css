@@ -43,7 +43,7 @@ div {
 
 .diamond {
   height: 80px;
-  right: 2em;
+  right: -20em;
   top: calc(50% - 40px);
   width: 80px;
   background-color: hotpink;
@@ -53,7 +53,7 @@ div {
 }
 
 .js-move-diamond { 
- transform: translate(350px,0);
+  right: 3em; 
 }
 
 .panel {
@@ -82,50 +82,29 @@ div {
   top: calc(50% - 50px);
   width: 100px;
   background-color: orange;
+  border-radius: 100px; 
+  right: -10em;	
 }
 
 .js-circle-bounce { 
 	animation: circle-bounce 1s linear; 
-	-webkit-animation: circle-bounce 1s linear; 
+	right: 4em;
 }
-
--webkit-@keyframes circle-bounce { 
-0% { 
-	top: 30px; 
-}
-40% { 
-	top: 500px; 
-}	
-60% { 
-	top: 400px; 
-}
-100% { 
-	top: 500px; 
-}	
-}
-
 
 @keyframes circle-bounce { 
 0% { 
-	top: 30px; 
+	top: 5px; 
 }
 40% { 
-	top: 500px; 
+	top: 10px; 
 }	
 60% { 
-	top: 400px; 
+	top: 15px; 
 }
 100% { 
-	top: 500px; 
+	top: 10px; 
 }	
 }
-
-
-
-
-
-
-
 
 .list {
   bottom: 1em;
